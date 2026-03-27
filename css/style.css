@@ -1702,7 +1702,7 @@ button.swiper-pagination-bullet {
 }
 
 .main {
-  background: url("../img/main/main-bg.jpg") 50%/cover no-repeat;
+  background: url("../img/main/main-bg.webp") 50%/cover no-repeat;
   position: relative;
 }
 @media (min-width: 77.5em) {
