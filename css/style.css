@@ -1702,7 +1702,6 @@ button.swiper-pagination-bullet {
 }
 
 .main {
-  background: url("../img/main/main-bg.webp") 50%/cover no-repeat;
   position: relative;
 }
 @media (min-width: 77.5em) {
@@ -1726,6 +1725,14 @@ button.swiper-pagination-bullet {
   .main {
     min-height: 33.125rem;
   }
+}
+.main .bg {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
 }
 .main__container {
   display: flex;
