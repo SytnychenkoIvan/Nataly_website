@@ -1,10 +1,7 @@
 @charset "UTF-8";
 /*Шрифты*/
-@import url("https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Roboto:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Comfortaa:300,regular,500,600,700&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Oswald:200,300,regular,500,600,700&display=swap");
-@import url("https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic&display=swap");
 [class^=_icon-]:before,
 [class*=" _icon-"]:before {
   font-family: "icons";
@@ -67,7 +64,7 @@ body {
 body {
   color: #512729;
   line-height: 1;
-  font-family: "Inter";
+  font-family: "Comfortaa";
   font-size: 1.125rem;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
@@ -79,7 +76,7 @@ body {
 input,
 button,
 textarea {
-  font-family: "Inter";
+  font-family: "Comfortaa";
   font-size: inherit;
 }
 
@@ -344,7 +341,7 @@ body._lock {
   }
 }
 .menu__link {
-  font-family: "Inter";
+  font-family: "Oswald";
   font-weight: 400;
   font-size: 1.25rem;
   line-height: 1.4;
@@ -543,6 +540,8 @@ body._lock {
   }
 }
 .menu-footer__titel {
+  font-family: "Oswald";
+  font-size: 1.25rem;
   margin-bottom: 1.25rem;
   font-weight: 700;
 }
@@ -553,9 +552,10 @@ body._lock {
   margin-bottom: 0.9375rem;
 }
 .menu-footer__link {
+  font-family: "Oswald";
   display: inline-block;
   transition: all 0.1s ease 0s;
-  font-size: 1rem;
+  font-size: 1.125rem;
   line-height: 1.5625;
   background: linear-gradient(to right, currentColor 0%, currentColor 100%) no-repeat;
   background-size: 0 2px; /* Начальная ширина подчеркивания */
@@ -657,20 +657,11 @@ body._lock {
   transform: translateX(0);
 }
 
-.main-title {
-  text-shadow: 2px 2px 0px #afaeae;
-}
-@media (max-width: 29.99875em) {
-  .main-title {
-    text-shadow: 1px 1px 0px #afaeae;
-  }
-}
-
 .title {
   text-decoration: underline;
   text-underline-offset: 0.9375rem;
   text-decoration-thickness: 0.1875rem;
-  font-family: "Montserrat";
+  font-family: "Comfortaa";
   font-weight: 400;
   text-shadow: 0.125rem 0.125rem 0rem #afaeae;
 }
@@ -815,7 +806,7 @@ body._lock {
 
 .button {
   background-color: transparent;
-  font-family: "Inter";
+  font-family: "Comfortaa";
   border: solid 0.0625rem;
   border-radius: 0.875rem;
   line-height: 1.4;
@@ -1770,6 +1761,8 @@ button.swiper-pagination-bullet {
   }
 }
 .main__title {
+  font-family: "Oswald";
+  text-shadow: 2px 2px 0px #afaeae;
   font-size: 4.0625rem;
   line-height: 1.0769230769;
   font-weight: 700;
@@ -1795,8 +1788,9 @@ button.swiper-pagination-bullet {
 }
 @media (max-width: 29.99875em) {
   .main__title {
-    font-size: 1.875rem;
-    line-height: 1.3333333333;
+    font-size: 2.125rem;
+    line-height: 1.1764705882;
+    text-shadow: 1px 1px 0px #afaeae;
   }
 }
 .main__text {
@@ -1995,6 +1989,7 @@ button.swiper-pagination-bullet {
   padding: 1.25rem;
 }
 .swiper-slide__title {
+  font-family: "Comfortaa";
   font-size: 1.5625rem;
   color: #191A23;
   font-weight: 700;
@@ -2006,7 +2001,7 @@ button.swiper-pagination-bullet {
 }
 .swiper-slide__text {
   flex: 1 1 auto;
-  font-family: "Roboto";
+  font-family: "Comfortaa";
   line-height: 1.3888888889;
 }
 @media (max-width: 61.99875em) {
@@ -2234,6 +2229,7 @@ button.swiper-pagination-bullet {
   }
 }
 .works .block__more {
+  font-family: "Oswald";
   margin-top: 0.9375rem;
   display: inline-block;
   background: linear-gradient(to right, currentColor 0%, currentColor 100%) no-repeat;
@@ -2250,6 +2246,7 @@ button.swiper-pagination-bullet {
   color: #311a1b;
   transform: scale(0.95);
 }
+
 .gallery {
   border-radius: 10px;
   display: grid;
