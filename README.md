@@ -1,1 +1,1 @@
-Simple one page website. <br>Stack I used: html, scss, js, gulp 
+Simple one page website. <br>Stack I used: html, scss, js, gulp.
